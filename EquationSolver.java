@@ -2,12 +2,9 @@ package monika.dziedzic.agh.edu.pl;
 
 import org.jblas.FloatMatrix;
 import org.jblas.Solve;
-import org.jfree.ui.RefineryUtilities;
 
-import java.util.ArrayList;
-//x needs to be removed
 public class EquationSolver {
-    protected int elems, x; //x - unknown variable
+    protected int elems;
     protected float k;
     FloatMatrix matrixU; //result - approximated solution
     FloatMatrix matrixB, matrixW, matrixL; //matrixW - matrix of coefficients
