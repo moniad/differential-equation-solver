@@ -1,6 +1,5 @@
 package monika.dziedzic.agh.edu.pl;
 
-//dokończyć
 import org.jblas.FloatMatrix;
 
 import java.util.ArrayList;
@@ -54,9 +53,9 @@ class IntegralCalculator{ //to calculate integrals and return them as a matrix
         for(int i=0; i<n; i++)
             matrixL.put(i,(5*i-10*n)/(n*n)+5/n);
 
-        //special cases for boundaries - w sumie czemu?
+        //special cases for boundaries
         matrixL.put(0,0);
-        matrixL.put(n-1,-5*(3*n+1)/(6*n*n)+5/(2*n)+8*k);
+        matrixL.put(n-1,-5/(6*n*n)+8*k);
 
         return matrixL;
     }
