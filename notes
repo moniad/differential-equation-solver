@@ -14,3 +14,6 @@
 //hints:
 //mogę wywoływać metody z innej klasy tylko na obiektach tej klasy!!!
 //this.matrixW=Solve.solve(this.matrixB,this.matrixL);
+
+//do doprecyzowania, czemu wyjatek, nie powinnno isc do uzytkownika
+        //nie sklejac stringow +
