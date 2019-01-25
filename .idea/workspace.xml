@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db2dc6d8-68bd-4e3b-9dc5-25b33dff43b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/BaseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/doesnt_work/BaseFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/BaseFunctionsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/BaseFunctionsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Chart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/DerivativesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/unnecessary/DerivativesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/DialogBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/DialogBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/EquationSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/EquationSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/FirstDerivative.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/unnecessary/FirstDerivative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/doesnt_work/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/FunctionsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/unnecessary/FunctionsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/InputParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/InputParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/IntegralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/IntegralCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/MyFunctionToBeIntegrated.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/unnecessary/MyFunctionToBeIntegrated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/ReturnShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/ReturnShift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/SecondDerivative.java" beforeDir="false" afterPath="$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/unnecessary/SecondDerivative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/BaseFunctionsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/BaseFunctionsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/EquationSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/EquationSolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/InputParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/InputParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/IntegralCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/IntegralCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/MyFunctionToBeIntegrated.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/ReturnShift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Obiektowe3/monika/dziedzic/agh/edu/pl/ReturnShift.class" afterDir="false" />
-    </list>
+    <list default="true" id="db2dc6d8-68bd-4e3b-9dc5-25b33dff43b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Chart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="315">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -192,7 +167,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548435456891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548435766223" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -397,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/monika/dziedzic/agh/edu/pl/Chart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="315">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
