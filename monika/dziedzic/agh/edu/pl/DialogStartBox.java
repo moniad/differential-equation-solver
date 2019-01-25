@@ -21,7 +21,7 @@ class DialogStartBox extends DialogBox {
             e.printStackTrace();
         }
     }
-    protected void showEquationToBeSolved(){
+    void showEquationToBeSolved(){
         JOptionPane.showMessageDialog(null,"I'm solving the following equation: " +
                 "u'-"+this.k+"*u''=5x-10, \n with the following BVP: u(0)=5, u'(1)=3");
     }

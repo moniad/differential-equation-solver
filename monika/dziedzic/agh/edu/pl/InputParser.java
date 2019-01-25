@@ -3,12 +3,12 @@ package monika.dziedzic.agh.edu.pl;
 class InputParser {
     private String inputString;
     protected int n;
-    protected float k;
+    float k;
 
-    public InputParser(String inputString){
+    InputParser(String inputString){
         this.inputString=inputString;
     }
-    public void parseInput() throws IncorrectInputException{
+    void parseInput() throws IncorrectInputException{
         String[] separatedInput = inputString.split(" ");
         this.n= Integer.parseInt(separatedInput[0]);
         this.k = Integer.parseInt(separatedInput[1]);

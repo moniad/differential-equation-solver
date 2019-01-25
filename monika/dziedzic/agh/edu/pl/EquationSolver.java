@@ -8,7 +8,6 @@ class EquationSolver {
     private float k;
     private FloatMatrix matrixU; //result - approximated solution
     private FloatMatrix matrixB, matrixW, matrixL; //matrixW - matrix of coefficients
-    private BaseFunctionsHandler baseFunctionsHandler;
     float[] tableMatrixU;
 
     public EquationSolver(int elems, float k){
@@ -18,7 +17,6 @@ class EquationSolver {
         this.matrixW=FloatMatrix.zeros(elems+1);
         this.matrixL=FloatMatrix.zeros(elems+1);
         this.matrixU=FloatMatrix.zeros(elems+1);
-        this.baseFunctionsHandler=new BaseFunctionsHandler();
         this.tableMatrixU=new float[elems+1]; //muszę to przepisać, bo JFree
     }
 
