@@ -28,12 +28,12 @@ public class Main {
         dialogBox.showEquationToBeSolved();
         EquationSolver eq = new EquationSolver(dialogBox.n,dialogBox.k);
         eq.solveEq();
-        DialogEndBox dialogEndBox = new DialogEndBox();
-        dialogEndBox.showDialog();
-        Chart chart=new Chart("Wykresik, proszę państwa", "Przyblizony" +
-                " wykres funkcji spelniajacej nasze rownanie", eq.tableMatrixU,eq.elems+1);
+        Chart chart=new Chart("Wykresik, proszę państwa", "Approximated solution to the equation",
+                eq.tableMatrixU,eq.elems);
         chart.pack();
         RefineryUtilities.centerFrameOnScreen(chart);
         chart.setVisible(true);
+        DialogEndBox dialogEndBox = new DialogEndBox();
+        dialogEndBox.showDialog();
     }
 }
