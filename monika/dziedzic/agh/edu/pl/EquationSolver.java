@@ -10,6 +10,7 @@ public class EquationSolver {
     FloatMatrix matrixB, matrixW, matrixL; //matrixW - matrix of coefficients
     protected BaseFunctionsHandler baseFunctionsHandler;
     float[] tableMatrixU;
+    //final int noOfPoints=1000;
 
     public EquationSolver(int elems, float k){
         this.elems=elems;
@@ -19,23 +20,23 @@ public class EquationSolver {
         this.matrixL=FloatMatrix.zeros(elems+1);
         this.matrixU=FloatMatrix.zeros(elems+1);
         this.baseFunctionsHandler=new BaseFunctionsHandler();
-        this.tableMatrixU= new float[elems+1]; //muszę to przepisać, bo JFree
+        this.tableMatrixU=new float[elems+1]; //muszę to przepisać, bo JFree
     }
 
     protected void solveEq(){
         //chcę dostać macierze z policzonymi całkami za pomocą apache
         IntegralCalculator integralCalculator = new IntegralCalculator(matrixB, matrixL,elems+1,k);
         this.matrixB = integralCalculator.calculateMatrixB();
-//this.matrixB.print();
+// this.matrixB.print();
         this.matrixL = integralCalculator.calculateMatrixL();
 //this.matrixL.print();
         this.matrixW=Solve.solve(this.matrixB,this.matrixL); //solving the eq. system using jblas
-
+//matrixW.print();
         //return shift
         BaseFunctionsHandler baseFunctionsHandler = new BaseFunctionsHandler();
-        this.matrixU=(new ReturnShift(matrixW, baseFunctionsHandler, elems+1)).getU(); //-> u jest policzone
-
+        this.matrixU=(new ReturnShift(matrixW, baseFunctionsHandler,elems+1)).getU(); //  -> u jest policzone
         for(int i=0; i<=elems; i++)
             tableMatrixU[i]=this.matrixU.get(i);
+//matrixU.print();
     }
 }

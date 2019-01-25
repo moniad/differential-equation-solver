@@ -13,7 +13,7 @@ class BaseFunctionsHandler //extends FunctionsHandler
     }*/
     public float getBaseFunctions(float x, int n, int i){ //n is the number of elems
         //addRecommendedBaseFunctions(n,x);
-        if(x>=i/n)
+        if(x>=(float)i/n)
             return Math.max(1-n*x+i,0); //returning max so that in other ranges the value of the base function is 0
         else
             return Math.max(1+n*x-i,0);

@@ -29,7 +29,7 @@ public class Main {
         EquationSolver eq = new EquationSolver(dialogBox.n,dialogBox.k);
         eq.solveEq();
         Chart chart=new Chart("Wykresik, proszę państwa", "Approximated solution to the equation",
-                eq.tableMatrixU,eq.elems);
+                eq.tableMatrixU,eq.elems+1);
         chart.pack();
         RefineryUtilities.centerFrameOnScreen(chart);
         chart.setVisible(true);

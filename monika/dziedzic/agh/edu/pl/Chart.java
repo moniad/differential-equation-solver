@@ -21,13 +21,12 @@ class Chart extends ApplicationFrame
         //adding points to the series
         final XYSeries series = new XYSeries("");
 
-        int i=1;
-        for (float x=(float) 1/n; x<=1.0; i++, x+=(float) 1/n)
-            series.add(x,matrixU[i]);
+        for (int i=0; i<n; i++)
+            series.add((float)i/n,matrixU[i]);
 
         //points linked with BVP - to powinno samo wyjsc z macierzy
-        series.add(0.0,5.0);
-        series.add(1.0,matrixU[i-1]);
+        /*series.add(0.0,5.0);
+        series.add(1.0,matrixU[n-1]);*/
 
         //create chart
         final XYSeriesCollection data = new XYSeriesCollection(series);
@@ -43,7 +42,7 @@ class Chart extends ApplicationFrame
 
         //adjust chart
         final ChartPanel chartPanel = new ChartPanel(chart);
-        chartPanel.setPreferredSize(new java.awt.Dimension(1000, 600));
+        chartPanel.setPreferredSize(new Dimension(1000, 600));
         final XYPlot plot = chart.getXYPlot();
         XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         renderer.setSeriesPaint(0, Color.BLUE);
