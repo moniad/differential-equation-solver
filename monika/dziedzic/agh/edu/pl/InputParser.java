@@ -1,6 +1,5 @@
 package monika.dziedzic.agh.edu.pl;
 
-
 class InputParser {
     private String inputString;
     protected int n;
@@ -16,7 +15,5 @@ class InputParser {
 
         if(n<=0 || k<=0) throw new IncorrectInputException("Values of n and k" +
                 " you inserted are incorrect. Try again");
-        //System.out.println(n);
-        //System.out.println(k);
     }
 }

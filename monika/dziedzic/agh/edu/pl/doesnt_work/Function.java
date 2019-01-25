@@ -1,4 +1,4 @@
-package monika.dziedzic.agh.edu.pl;
+package monika.dziedzic.agh.edu.pl.doesnt_work;
 //niepotrzebne
 /*
 abstract class Function {

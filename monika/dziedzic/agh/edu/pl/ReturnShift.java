@@ -7,7 +7,6 @@ class ReturnShift {
     protected FloatMatrix matrixW;
     protected BaseFunctionsHandler baseFunctionsHandler;
     private int n;
-    //private final int noOfPoints=1000;
 
     public ReturnShift(FloatMatrix matrixW, BaseFunctionsHandler baseFunctionsHandler, int n) {
         this.n=n;
@@ -24,12 +23,8 @@ class ReturnShift {
             for(int j=0; j<n; j++)
                 sumOfCoefMultByBaseFcts += matrixW.get(j) * baseFunctionsHandler.getBaseFunctions(x, n, j);
 
-            matrixU.put(i, 5 * (1 - x) + sumOfCoefMultByBaseFcts); //Math.max(1 - Math.abs(x - i / n), 0));
-            System.out.println(i);
-            System.out.println(sumOfCoefMultByBaseFcts);
-            System.out.println();
+            matrixU.put(i, 5 * (1 - x) + sumOfCoefMultByBaseFcts);
         }
-        //matrixU.print();
         return matrixU;
     }
 }

@@ -1,4 +1,4 @@
-package monika.dziedzic.agh.edu.pl;
+package monika.dziedzic.agh.edu.pl.unnecessary;
 
 //not necessary, I'll probably calculate them normally, on the sheet of paper :P
 import org.apache.commons.math3.analysis.UnivariateFunction;

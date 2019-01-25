@@ -24,10 +24,6 @@ class Chart extends ApplicationFrame
         for (int i=0; i<n; i++)
             series.add((float)i/n,matrixU[i]);
 
-        //points linked with BVP - to powinno samo wyjsc z macierzy
-        /*series.add(0.0,5.0);
-        series.add(1.0,matrixU[n-1]);*/
-
         //create chart
         final XYSeriesCollection data = new XYSeriesCollection(series);
         JFreeChart chart = ChartFactory.createXYLineChart(

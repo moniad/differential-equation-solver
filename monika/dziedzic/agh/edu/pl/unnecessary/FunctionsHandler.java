@@ -1,4 +1,4 @@
-package monika.dziedzic.agh.edu.pl;
+package monika.dziedzic.agh.edu.pl.unnecessary;
 
 import java.util.ArrayList;
 //nie działa, czemu?

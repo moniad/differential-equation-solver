@@ -5,30 +5,21 @@ import org.jblas.FloatMatrix;
 import java.util.ArrayList;
 
 class IntegralCalculator{ //to calculate integrals and return them as a matrix
-    ArrayList<Float> integrals;//integrals are stored here
+    //ArrayList<Float> integrals;//integrals are stored here
     private int n; //no of rows in the matrixes
     private float k;
     protected FloatMatrix matrixB;
     protected FloatMatrix matrixL;
 
     public IntegralCalculator(FloatMatrix matrixB, FloatMatrix matrixL, int n, float k){
-        this.integrals=new ArrayList<>();
+       // this.integrals=new ArrayList<>();
         this.n=n;
         this.k=k;
         this.matrixB=matrixB;
         this.matrixL=matrixL;
     }
     protected FloatMatrix calculateMatrixB(){
-
-        /*calculate integrals with help of Apache -- to do
-        //.. add 'em to the list because it throws exception!
-
-        //use FirstDerivative, SecondDerivative and DerivativeHandler!!!
-
-        //put integrals to the matrix
-        /*for (int i=0; i<matrix.length; i++)
-            matrix.put(i, integrals.get(i)); //accessing elems in linear order
-        */
+        //...calculate integrals with help of Apache - to be developed - use FirstDerivative, SecondDerivative and DerivativeHandler!!!
 
         //put values into matrixB
         for(int i=0; i<n; i++) //most values are 0 because of the character of base functions
@@ -41,7 +32,7 @@ class IntegralCalculator{ //to calculate integrals and return them as a matrix
         for(int i=1; i<n; i++) //values below the diagonal
             matrixB.put(i,i-1,(float)-1/2-k*n);
 
-        //special cases for boundaries - w sumie czemu?
+        //special cases for boundaries
         matrixB.put(0,0,1);
         matrixB.put(n-1,n-1, k*n+(float)1/2);
 
