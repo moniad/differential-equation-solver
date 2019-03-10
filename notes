@@ -1,19 +1,7 @@
-
-// na labach był przykład z delegowaniem czegoś
-// do odpowiedniej klasy za pomoca interfejsu
-// to tutaj nie pasuje, bo wprowadzamy zmiany?
-// czy coś źle ogarnęłam XD?
-
 //to develop app:
 //...
-//napisać testy
-//zapis do pliku mozna zrobić
-//statyczna macierz FloatMatrix??
-//czemu special cases
-
-//hints:
-//mogę wywoływać metody z innej klasy tylko na obiektach tej klasy!!!
-//this.matrixW=Solve.solve(this.matrixB,this.matrixL);
-
-//do doprecyzowania, czemu wyjatek, nie powinnno isc do uzytkownika
-        //nie sklejac stringow +
+//tests
+//writing to file
+//static matrix FloatMatrix
+//special cases
+//exception - put it more bluntly, the user shouldn't see it
